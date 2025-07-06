@@ -22,6 +22,19 @@
                 "isDefault": true
             },
             "detail": "디버거에서 생성된 작업입니다."
+        },
+        {
+            "label": "Clean All EXE",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c", "del /s /q *.exe"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
         }
     ],
     "version": "2.0.0"
